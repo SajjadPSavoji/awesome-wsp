@@ -7,12 +7,14 @@
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
 ![Entries](https://img.shields.io/badge/entries-532-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 
 </div>
 
-*Weight-space programming* was named in the MIT CSAIL report [Sparks of Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/) (2026-11-02). A general LLM is given another network's weights, sometimes with code and a budget of forward passes, and changes the numbers to explain, repair or build behavior. This list tracks the papers, code, benchmarks and critiques that follow, grouped by the kind of network being programmed. The [Foundations](#-foundations-weight-programming-before-wsp) section traces the eighty years of earlier work, from McCulloch and Pitts (1943) to 2025, that read, edited or wrote weights under other names. It is rebuilt from [`data/entries.json`](data/entries.json).
+> **This is a mirror of [awesome-weight-space-programming](https://github.com/SajjadPSavoji/awesome-weight-space-programming).** Same content, rebuilt from the same data. Please star and open pull requests there.
+
+*Weight-space programming* was named in the MIT CSAIL report [Sparks of Weight-Space Programming](https://rikiyat.github.io/blog/weight-space-programming/) (2026-11-02). A general LLM is given another network's weights, sometimes with code and a budget of forward passes, and changes the numbers to explain, repair or build behavior. This list tracks the papers, code, benchmarks and critiques that follow, grouped by the kind of network being programmed. The [Foundations](#-foundations-weight-programming-before-wsp) section traces the eighty years of earlier work, from McCulloch and Pitts (1943) to 2025, that read, edited or wrote weights under other names. It is rebuilt from [`data/entries.json`](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/data/entries.json).
 
 ## 🔥 Recently Added
 
@@ -2872,7 +2874,7 @@ An automated sweep (daily) checks arXiv, GitHub and the Hugging Face Hub for new
 
 ## Contributing
 
-Contributions are welcome. To add a work, open a pull request that adds one object to [`data/entries.json`](data/entries.json) in the same style as the existing entries, then run `python3 scripts/build.py`. Each pull request is reviewed, and it is merged once its relevance is confirmed. **If you are an author of the work, say so** in the pull request and include the details: affiliation, status (preprint, under review or accepted, and where), links to code and data, and the headline result with its setting. See [CONTRIBUTING.md](CONTRIBUTING.md) for the fields and inclusion rules.
+Contributions are welcome. To add a work, open a pull request that adds one object to [`data/entries.json`](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/data/entries.json) in the same style as the existing entries, then run `python3 scripts/build.py`. Each pull request is reviewed, and it is merged once its relevance is confirmed. **If you are an author of the work, say so** in the pull request and include the details: affiliation, status (preprint, under review or accepted, and where), links to code and data, and the headline result with its setting. See [CONTRIBUTING.md](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md) for the fields and inclusion rules.
 
 ## Citation
 
