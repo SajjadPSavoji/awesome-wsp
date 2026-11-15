@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-606-blue)
+![Entries](https://img.shields.io/badge/entries-609-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -19,6 +19,9 @@
 ## 🔥 Recently Added
 
 - **2026-11-15** · [Priyanshu-5257/scrfd-500m-wsp-compress](https://github.com/Priyanshu-5257/scrfd-500m-wsp-compress) (Other Domains)
+- **2026-11-15** · [AHA: Weight-Space Programming Without LLMs](https://haithamb.github.io/aha/) (Repairing behavior)
+- **2026-11-15** · [Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?](https://github.com/urbste/weight-space-programming-ptq) (Other Domains)
+- **2026-11-15** · [Weight Space Programming Evals](https://github.com/tyranasaurus/wsp-evals) (Benchmarks and Evaluations)
 - **2026-11-14** · [trehansalil/weight-space-programming](https://github.com/trehansalil/weight-space-programming) (Analyses and Critiques)
 - **2026-11-14** · [How Small Can a Weight-Space Programmer Be?](https://github.com/lemonadesaltbagel/how-small-wsp) (Repairing behavior)
 - **2026-11-14** · [[WSPlore] Follow-up Explorations of Weight-Space Programming](https://github.com/jasperzhao05/wsplore) (Analyses and Critiques)
@@ -27,9 +30,6 @@
 - **2026-11-14** · [Weight-space programming (decision pipes and pipec compiler)](https://github.com/dennj/Weight-Space-Programming) (Writing networks from scratch)
 - **2026-11-14** · [Hot-swapped weight files let a 4B model beat a 35B MoE with 43% of the memory](https://kevin.stream/blog/swap-the-weights) (Repairing behavior)
 - **2026-11-14** · [Opus 5.5 rewires Stable Diffusion XL by hand](https://github.com/iamomiid/weight-space-programming-sdxl) (Other Domains)
-- **2026-11-14** · [ruvnet/ruv-FANN](https://github.com/ruvnet/ruv-FANN) (Tools, Harnesses and Agent Skills)
-- **2026-11-13** · [jazzpher/qwen35-ramble-edit](https://github.com/jazzpher/qwen35-ramble-edit) (Analyses and Critiques)
-- **2026-11-12** · [Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games) (Games)
 
 ## 🧭 Milestones
 
@@ -42,18 +42,18 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (30)
-  - [Repairing behavior](#repairing-behavior) (21)
+- [💬 Language Models](#-language-models) (31)
+  - [Repairing behavior](#repairing-behavior) (22)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (7)
 - [🦾 Robotics and Control](#-robotics-and-control) (14)
   - [Vision-language-action models](#vision-language-action-models) (6)
   - [RL control policies](#rl-control-policies) (8)
-- [🧩 Other Domains](#-other-domains) (27)
+- [🧩 Other Domains](#-other-domains) (28)
   - [Classical NLP models](#classical-nlp-models) (1)
 - [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (2)
-- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (4)
+- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (5)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (16)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (22)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
@@ -112,12 +112,17 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (21)</b></summary>
+<summary><b>Repairing behavior (22)</b></summary>
 
 - **[How Small Can a Weight-Space Programmer Be?](https://github.com/lemonadesaltbagel/how-small-wsp)**  
   Xintian Huang · *GitHub* · 2026-11-15 · `💻 code / results`  
   [[Code](https://github.com/lemonadesaltbagel/how-small-wsp)] ![GitHub stars](https://img.shields.io/github/stars/lemonadesaltbagel/how-small-wsp?style=social)  
   Editors (Qwen 3.5 0.8B, 9B and 27B, deepseek-flash, and Claude Opus 5.5 as a frontier reference) each try to repair the reasoning loops of a damaged Qwen3.5-0.8B through its weights. One protocol applies a fixed forward-pass budget, a pre-execution rule reviewer and a post-hoc audit of every tool call. Releases episode records and an audit of a published run.
+
+- **[AHA: Weight-Space Programming Without LLMs](https://haithamb.github.io/aha/)**  
+  Ahmed Khamis, Rasul Tutunov, Haitham Bou Ammar · *GitHub* · 2026-11-15 · `💻 code / results`  
+  [[Post](https://haithamb.github.io/aha/)] [[Code](https://github.com/Eppy-EpHard/AHA)] ![GitHub stars](https://img.shields.io/github/stars/Eppy-EpHard/AHA?style=social)  
+  Builds a rank-one edit to the MLP down_proj in two layers from the model's own samples and a linear program, with no agent and no gradient step, to stop repetition loops. Qwen3.5-0.8B GSM8K test goes from 14.0 to 71.2; MATH-500 from 9.8 to 51.8; IFEval from 19.6 to 62.7.
 
 - **[wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools)**  
   mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -373,12 +378,17 @@
 *Classifiers, small decision networks and anything else.*
 
 <details>
-<summary><b>General (26)</b></summary>
+<summary><b>General (27)</b></summary>
 
 - **[Priyanshu-5257/scrfd-500m-wsp-compress](https://github.com/Priyanshu-5257/scrfd-500m-wsp-compress)**  
   Priyanshu-5257 · *GitHub* · 2026-11-15 · `💻 code / results`  
   [[Code](https://github.com/Priyanshu-5257/scrfd-500m-wsp-compress)] ![GitHub stars](https://img.shields.io/github/stars/Priyanshu-5257/scrfd-500m-wsp-compress?style=social)  
   No-training compression of the SCRFD-500M face detector by SVD of weights (rank 96) and keypoint-head removal. Combined edit cuts parameters 626,332 to 453,470 (−27.6%) with DEV Hard AP −0.66 pp. SVD alone gave no ORT latency gain (8.15 vs 8.12 ms). Structural follow-ups were negative.
+
+- **[Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?](https://github.com/urbste/weight-space-programming-ptq)**  
+  urbste · *GitHub* · 2026-11-15 · `💻 code / results`  
+  [[Code](https://github.com/urbste/weight-space-programming-ptq)] ![GitHub stars](https://img.shields.io/github/stars/urbste/weight-space-programming-ptq?style=social)  
+  Claude models receive the weights of a 20k-weight CIFAR-10 CNN as text, with no tools or data, and write a better 4-bit network. Per-channel RTN lowers test accuracy from 81.42% to 60.39%. Opus 5.5 kernel balancing by hand reaches 77.95%; exact kernel balancing in code reaches 77.80%; AdaRound reaches 80.71%.
 
 - **[wsp-yolo-eel: weight-space programming on a YOLO26n eel detector](https://github.com/mrtpk/wsp-yolo-eel)**  
   mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -587,7 +597,12 @@
 *Controlled tests of whether weight access helps.*
 
 <details>
-<summary><b>4 entries</b></summary>
+<summary><b>5 entries</b></summary>
+
+- **[Weight Space Programming Evals](https://github.com/tyranasaurus/wsp-evals)**  
+  tyranasaurus · *GitHub* · 2026-11-14 · `💻 code / results`  
+  [[Code](https://github.com/tyranasaurus/wsp-evals)] ![GitHub stars](https://img.shields.io/github/stars/tyranasaurus/wsp-evals?style=social)  
+  Benchmark with three task families: reading trained weights (29 suites, 212 tasks over 14 network families), compiling known programs into ReLU networks, and writing networks from scratch. A verifier scores the network on unseen inputs. Seven frontier models are evaluated. The authors report little evidence that LLMs understand dense-network weights.
 
 - **[IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection](https://arxiv.org/abs/2611.08647)**  
   Chris von Csefalvay, Pranav Doma, Achyuthan Unni Krishnan, Tamás Földi · *Preprint* · 2026-11-05 · `📝 preprint`  
