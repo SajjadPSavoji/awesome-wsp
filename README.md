@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-605-blue)
+![Entries](https://img.shields.io/badge/entries-606-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -18,6 +18,7 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-15** · [Priyanshu-5257/scrfd-500m-wsp-compress](https://github.com/Priyanshu-5257/scrfd-500m-wsp-compress) (Other Domains)
 - **2026-11-14** · [trehansalil/weight-space-programming](https://github.com/trehansalil/weight-space-programming) (Analyses and Critiques)
 - **2026-11-14** · [How Small Can a Weight-Space Programmer Be?](https://github.com/lemonadesaltbagel/how-small-wsp) (Repairing behavior)
 - **2026-11-14** · [[WSPlore] Follow-up Explorations of Weight-Space Programming](https://github.com/jasperzhao05/wsplore) (Analyses and Critiques)
@@ -29,7 +30,6 @@
 - **2026-11-14** · [ruvnet/ruv-FANN](https://github.com/ruvnet/ruv-FANN) (Tools, Harnesses and Agent Skills)
 - **2026-11-13** · [jazzpher/qwen35-ramble-edit](https://github.com/jazzpher/qwen35-ramble-edit) (Analyses and Critiques)
 - **2026-11-12** · [Compiling Known Rules into Compact Neural Agents: Weight-Space Programming on Unseen Games](https://github.com/JensLehmann/weight-space-programming-games) (Games)
-- **2026-11-12** · [wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools) (Repairing behavior)
 
 ## 🧭 Milestones
 
@@ -49,7 +49,7 @@
 - [🦾 Robotics and Control](#-robotics-and-control) (14)
   - [Vision-language-action models](#vision-language-action-models) (6)
   - [RL control policies](#rl-control-policies) (8)
-- [🧩 Other Domains](#-other-domains) (26)
+- [🧩 Other Domains](#-other-domains) (27)
   - [Classical NLP models](#classical-nlp-models) (1)
 - [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (2)
@@ -373,7 +373,12 @@
 *Classifiers, small decision networks and anything else.*
 
 <details>
-<summary><b>General (25)</b></summary>
+<summary><b>General (26)</b></summary>
+
+- **[Priyanshu-5257/scrfd-500m-wsp-compress](https://github.com/Priyanshu-5257/scrfd-500m-wsp-compress)**  
+  Priyanshu-5257 · *GitHub* · 2026-11-15 · `💻 code / results`  
+  [[Code](https://github.com/Priyanshu-5257/scrfd-500m-wsp-compress)] ![GitHub stars](https://img.shields.io/github/stars/Priyanshu-5257/scrfd-500m-wsp-compress?style=social)  
+  No-training compression of the SCRFD-500M face detector by SVD of weights (rank 96) and keypoint-head removal. Combined edit cuts parameters 626,332 to 453,470 (−27.6%) with DEV Hard AP −0.66 pp. SVD alone gave no ORT latency gain (8.15 vs 8.12 ms). Structural follow-ups were negative.
 
 - **[wsp-yolo-eel: weight-space programming on a YOLO26n eel detector](https://github.com/mrtpk/wsp-yolo-eel)**  
   mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
