@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-610-blue)
+![Entries](https://img.shields.io/badge/entries-611-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -18,6 +18,7 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-16** · [Jake-Song/weight-space-programming](https://github.com/Jake-Song/weight-space-programming) (Analyses and Critiques)
 - **2026-11-15** · [Priyanshu-5257/scrfd-500m-wsp-compress](https://github.com/Priyanshu-5257/scrfd-500m-wsp-compress) (Other Domains)
 - **2026-11-15** · [AHA: Weight-Space Programming Without LLMs](https://haithamb.github.io/aha/) (Repairing behavior)
 - **2026-11-15** · [Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?](https://github.com/urbste/weight-space-programming-ptq) (Other Domains)
@@ -29,7 +30,6 @@
 - **2026-11-14** · [LLM-directed weight-space programming on a network encoder](https://github.com/Raufnarejo505/llm-directed-weight-space-programming) (Other Domains)
 - **2026-11-14** · [Weight-space programming for college advising](https://github.com/harlyn1/weight-space-advising-logs) (Repairing behavior)
 - **2026-11-14** · [Weight-space programming (decision pipes and pipec compiler)](https://github.com/dennj/Weight-Space-Programming) (Writing networks from scratch)
-- **2026-11-14** · [Hot-swapped weight files let a 4B model beat a 35B MoE with 43% of the memory](https://kevin.stream/blog/swap-the-weights) (Repairing behavior)
 
 ## 🧭 Milestones
 
@@ -55,7 +55,7 @@
 - [🧪 Quantum Circuits](#-quantum-circuits) (2)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (5)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (16)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (23)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (24)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -720,7 +720,12 @@
 *Audits, replications of claims and critical takes.*
 
 <details>
-<summary><b>23 entries</b></summary>
+<summary><b>24 entries</b></summary>
+
+- **[Jake-Song/weight-space-programming](https://github.com/Jake-Song/weight-space-programming)**  
+  Jake-Song · *GitHub* · 2026-11-16 · `💻 code / results`  
+  [[Code](https://github.com/Jake-Song/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/Jake-Song/weight-space-programming?style=social)  
+  Reproduces the published Qwen3.5-0.8B weight edit with tensor SHA256 checks, then compares layer 15, layer 19 and both on 100 held-out MATH-500 problems, one sample each. Accuracy: original 8%, layer 15 41%, layer 19 31%, both 57%, thinking off 51%, random-direction control 11%.
 
 - **[trehansalil/weight-space-programming](https://github.com/trehansalil/weight-space-programming)**  
   trehansalil · *GitHub* · 2026-11-15 · `💻 code / results`  
