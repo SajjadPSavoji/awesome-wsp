@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-609-blue)
+![Entries](https://img.shields.io/badge/entries-610-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -22,6 +22,7 @@
 - **2026-11-15** · [AHA: Weight-Space Programming Without LLMs](https://haithamb.github.io/aha/) (Repairing behavior)
 - **2026-11-15** · [Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?](https://github.com/urbste/weight-space-programming-ptq) (Other Domains)
 - **2026-11-15** · [Weight Space Programming Evals](https://github.com/tyranasaurus/wsp-evals) (Benchmarks and Evaluations)
+- **2026-11-15** · [Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming](https://arxiv.org/abs/2611.17395) (Analyses and Critiques)
 - **2026-11-14** · [trehansalil/weight-space-programming](https://github.com/trehansalil/weight-space-programming) (Analyses and Critiques)
 - **2026-11-14** · [How Small Can a Weight-Space Programmer Be?](https://github.com/lemonadesaltbagel/how-small-wsp) (Repairing behavior)
 - **2026-11-14** · [[WSPlore] Follow-up Explorations of Weight-Space Programming](https://github.com/jasperzhao05/wsplore) (Analyses and Critiques)
@@ -29,7 +30,6 @@
 - **2026-11-14** · [Weight-space programming for college advising](https://github.com/harlyn1/weight-space-advising-logs) (Repairing behavior)
 - **2026-11-14** · [Weight-space programming (decision pipes and pipec compiler)](https://github.com/dennj/Weight-Space-Programming) (Writing networks from scratch)
 - **2026-11-14** · [Hot-swapped weight files let a 4B model beat a 35B MoE with 43% of the memory](https://kevin.stream/blog/swap-the-weights) (Repairing behavior)
-- **2026-11-14** · [Opus 5.5 rewires Stable Diffusion XL by hand](https://github.com/iamomiid/weight-space-programming-sdxl) (Other Domains)
 
 ## 🧭 Milestones
 
@@ -55,7 +55,7 @@
 - [🧪 Quantum Circuits](#-quantum-circuits) (2)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (5)
 - [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (16)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (22)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (23)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -720,12 +720,17 @@
 *Audits, replications of claims and critical takes.*
 
 <details>
-<summary><b>22 entries</b></summary>
+<summary><b>23 entries</b></summary>
 
 - **[trehansalil/weight-space-programming](https://github.com/trehansalil/weight-space-programming)**  
   trehansalil · *GitHub* · 2026-11-15 · `💻 code / results`  
   [[Code](https://github.com/trehansalil/weight-space-programming)] ![GitHub stars](https://img.shields.io/github/stars/trehansalil/weight-space-programming?style=social)  
   Replicates a post's closed-form weight edit on Qwen3.5-0.8B (mlp.down_proj, layers 19, 21, 23) with MLX on Apple silicon. Compares the edit with many-shot prompting and LoRA on the same supervision across 15 tasks. Reports paired confidence intervals, forgetting (WikiText-2, ARC-Easy) and cost. One seed.
+
+- **[Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming](https://arxiv.org/abs/2611.17395)**  
+  Shandong University · *Preprint* · 2026-11-12 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.17395)]  
+  Studies whether general-purpose LLMs can inject backdoors by directly editing target model weights from natural-language instructions, without data, forward passes or gradients. Five LLMs are tested on an MLP (MNIST), ResNet-18 (CIFAR-10) and Qwen2.5-0.5B-Instruct (AG News). Backdoors need as few as six MLP parameters or 0.02% of Qwen weights; only one LLM succeeds on all three targets.
 
 - **[ianbruton/weight-space-programming-followup](https://github.com/ianbruton/weight-space-programming-followup)**  
   ianbruton · *GitHub* · 2026-11-11 · `💻 code / results`  
