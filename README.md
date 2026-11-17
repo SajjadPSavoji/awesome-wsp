@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-629-blue)
+![Entries](https://img.shields.io/badge/entries-630-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -26,10 +26,10 @@
 - **2026-11-17** · [Can AI Mature a Model's Geometry? Training-Free Weight Baking in LLMs](https://arxiv.org/abs/2611.21310) (Repairing behavior)
 - **2026-11-17** · [Weights & Caches: LLMs Can Program Tabular Foundation Models](https://arxiv.org/abs/2611.20174) (Other Domains)
 - **2026-11-17** · [Zero-Shot Weight-Space Programming for Prediction and Classification of Target Variables in Structured Datasets](https://arxiv.org/abs/2611.19292) (Writing networks from scratch)
+- **2026-11-17** · [WeightSpace: a frontier model editing small-model weights directly](https://github.com/freakwinsea/WeightSpace) (Repairing behavior)
 - **2026-11-17** · [EditLens: what did Astra's weight edit actually do?](https://xxlya.github.io/editlens/) (Analyses and Critiques)
 - **2026-11-17** · [Weight-space programming on CoSTI](https://github.com/javiersgjavi/costi-weight-space-programming) (Other Domains)
 - **2026-11-17** · [paul-gauthier/quantum-weight-space](https://paulg.info/2026/11/04/quantum-weight-space/) (Quantum Circuits)
-- **2026-11-17** · [Reading networks from their weights alone](https://github.com/jhpark94/weights-only-replication) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -42,8 +42,8 @@
 ## Contents
 
 - [🌟 The Original Report](#-the-original-report) (1)
-- [💬 Language Models](#-language-models) (36)
-  - [Repairing behavior](#repairing-behavior) (24)
+- [💬 Language Models](#-language-models) (37)
+  - [Repairing behavior](#repairing-behavior) (25)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (10)
 - [🦾 Robotics and Control](#-robotics-and-control) (14)
@@ -112,7 +112,7 @@
 <a id="repairing-behavior"></a>
 
 <details>
-<summary><b>Repairing behavior (24)</b></summary>
+<summary><b>Repairing behavior (25)</b></summary>
 
 - **[Weight-Space Programming Changes How an LLM Uses Python for Computational Biology](https://arxiv.org/abs/2611.20566)**  
   Makoto Sato · *Preprint* · 2026-11-16 · `📝 preprint`  
@@ -133,6 +133,11 @@
   Ahmed Khamis, Rasul Tutunov, Haitham Bou Ammar · *GitHub* · 2026-11-15 · `💻 code / results`  
   [[Post](https://haithamb.github.io/aha/)] [[Code](https://github.com/Eppy-EpHard/AHA)] ![GitHub stars](https://img.shields.io/github/stars/Eppy-EpHard/AHA?style=social)  
   Builds a rank-one edit to the MLP down_proj in two layers from the model's own samples and a linear program, with no agent and no gradient step, to stop repetition loops. Qwen3.5-0.8B GSM8K test goes from 14.0 to 71.2; MATH-500 from 9.8 to 51.8; IFEval from 19.6 to 62.7.
+
+- **[WeightSpace: a frontier model editing small-model weights directly](https://github.com/freakwinsea/WeightSpace)**  
+  freakwinsea · *GitHub* · 2026-11-13 · `💻 code / results`  
+  [[Code](https://github.com/freakwinsea/WeightSpace)] [[Model](https://huggingface.co/Freakwinsea/Qwen3.5-2B-doubt-edit)] ![GitHub stars](https://img.shields.io/github/stars/freakwinsea/WeightSpace?style=social)  
+  Claude Opus 5.5, with a 50-call budget and no gradients, edited down_proj weights of Qwen3.5-2B (383k weights) to reduce re-checking. Held-out MATH-500 accuracy rose from 20.6% to 27.2% at 4k tokens (p = 0.0002); a random-direction control did nothing. Gain on 0.8B was unconfirmed, and 4B showed none. Ran on one consumer GPU.
 
 - **[wsp-qwen-tools: weight edits for tool use in Qwen3.5-0.8B](https://github.com/mrtpk/wsp-qwen-tools)**  
   mrtpk · *GitHub* · 2026-11-12 · `💻 code / results`  
