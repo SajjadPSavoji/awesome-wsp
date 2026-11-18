@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-634-blue)
+![Entries](https://img.shields.io/badge/entries-638-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -18,6 +18,9 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-18** · [Lohitha0607/wsp-env](https://github.com/Lohitha0607/wsp-env) (Benchmarks and Evaluations)
+- **2026-11-18** · [What Does Weight-Space Programming Add to Diffusion Editing? Program Construction versus Score-Guided Refinement](https://arxiv.org/abs/2611.22228) (Other Domains)
+- **2026-11-18** · [AxOrganization/WeightSpaceProgramming](https://github.com/AxOrganization/WeightSpaceProgramming) (Tools, Harnesses and Agent Skills)
 - **2026-11-17** · [nbirkner/weight-space-programming-open](https://github.com/nbirkner/weight-space-programming-open) (Analyses and Critiques)
 - **2026-11-17** · [Weight-Space Programming Doesn't Need Transformers](https://github.com/effl-lab/Weight-Space-Programming) (Writing networks from scratch)
 - **2026-11-17** · [Weight-Space Programming for Materials Science](https://arxiv.org/abs/2611.22013) (Other Domains)
@@ -27,9 +30,6 @@
 - **2026-11-17** · [Same Fix, Different Weights: Replicating Weight-Space Programming with Claude](https://arxiv.org/abs/2611.20953) (Analyses and Critiques)
 - **2026-11-17** · [Weight-Space Programming Changes How an LLM Uses Python for Computational Biology](https://arxiv.org/abs/2611.20566) (Repairing behavior)
 - **2026-11-17** · [Can AI Mature a Model's Geometry? Training-Free Weight Baking in LLMs](https://arxiv.org/abs/2611.21310) (Repairing behavior)
-- **2026-11-17** · [Weight-space programming for tractor guidance controller: large language models natively write neural network weights that steer a real tractor](https://arxiv.org/abs/2611.21958) (RL control policies)
-- **2026-11-17** · [Weights & Caches: LLMs Can Program Tabular Foundation Models](https://arxiv.org/abs/2611.20174) (Other Domains)
-- **2026-11-17** · [Zero-Shot Weight-Space Programming for Prediction and Classification of Target Variables in Structured Datasets](https://arxiv.org/abs/2611.19292) (Writing networks from scratch)
 
 ## 🧭 Milestones
 
@@ -49,15 +49,15 @@
 - [🦾 Robotics and Control](#-robotics-and-control) (15)
   - [Vision-language-action models](#vision-language-action-models) (6)
   - [RL control policies](#rl-control-policies) (9)
-- [🧩 Other Domains](#-other-domains) (32)
+- [🧩 Other Domains](#-other-domains) (33)
   - [Classical NLP models](#classical-nlp-models) (1)
 - [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (3)
-- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (6)
-- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (18)
+- [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (7)
+- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (19)
 - [🔍 Analyses and Critiques](#-analyses-and-critiques) (32)
-- [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
-  - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
+- [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (189)
+  - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (17)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
   - [Weight surgery and pruning](#weight-surgery-and-pruning) (13)
   - [Fast weights and self-modifying networks](#fast-weights-and-self-modifying-networks) (11)
@@ -413,12 +413,17 @@
 *Classifiers, small decision networks and anything else.*
 
 <details>
-<summary><b>General (31)</b></summary>
+<summary><b>General (32)</b></summary>
 
 - **[Weight-Space Programming for Materials Science](https://arxiv.org/abs/2611.22013)**  
   Sk Md Ahnaf Akif Alvi, Raymundo Arróyave · *Preprint* · 2026-11-17 · `📝 preprint`  
   [[Paper](https://arxiv.org/abs/2611.22013)]  
   A general-purpose LLM fills in all weights of a zero-initialised 16-hidden-unit network from a task description and input names, with no labels. The networks rank experimental alloys at Spearman 0.64 to 0.79 and crystal bulk modulus at 0.95. As a Gaussian-process prior mean at five labels, alloy ranking rises from 0.35 to 0.69.
+
+- **[What Does Weight-Space Programming Add to Diffusion Editing? Program Construction versus Score-Guided Refinement](https://arxiv.org/abs/2611.22228)**  
+  Zitian Gao, Jingyi Xu, Ziqi Han, Chengkai Lei, et al. · *Preprint* · 2026-11-17 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.22228)]  
+  Compares LLM-written weight-space programs for diffusion concept editing with published editors, a hand-written baseline and budget-matched search on 24 TIMED edits for Stable Diffusion 1.4. The preregistered rewrite pipeline shows no advantage. One-shot Astra programs give +10.0 points fresh-scene VLM joint success over the baseline; probe-and-rewrite raises CLIP +6.2 while joint success changes -9.7.
 
 - **[Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora](https://github.com/Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora)**  
   Ganto12 · *GitHub* · 2026-11-16 · `💻 code / results`  
@@ -657,7 +662,12 @@
 *Controlled tests of whether weight access helps.*
 
 <details>
-<summary><b>6 entries</b></summary>
+<summary><b>7 entries</b></summary>
+
+- **[Lohitha0607/wsp-env](https://github.com/Lohitha0607/wsp-env)**  
+  Lohitha0607 · *GitHub* · 2026-11-18 · `💻 code / results`  
+  [[Code](https://github.com/Lohitha0607/wsp-env)] ![GitHub stars](https://img.shields.io/github/stars/Lohitha0607/wsp-env?style=social)  
+  RL environments where an LLM doctor repairs a damaged network by editing weights without retraining: a 2,410-parameter digit MLP and Qwen3-0.6B with scaled down_proj layers. Reports exam-split overall scores of 0.82 for Nemotron 3.5 Super, 0.74 for Claude Haiku 5.5 and 0.11 for a random doctor. Published on the Prime Intellect Environments Hub.
 
 - **[Weight Space Programming Evals](https://github.com/tyranasaurus/wsp-evals)**  
   tyranasaurus · *GitHub* · 2026-11-14 · `💻 code / results`  
@@ -696,12 +706,17 @@
 *Libraries and agent skills for reading and editing weights.*
 
 <details>
-<summary><b>18 entries</b></summary>
+<summary><b>19 entries</b></summary>
 
 - **[Rowanjgc/mindsculpt](https://github.com/Rowanjgc/mindsculpt)**  
   Rowanjgc · *GitHub* · 2026-11-17 · `💻 code / results`  
   [[Code](https://github.com/Rowanjgc/mindsculpt)] ![GitHub stars](https://img.shields.io/github/stars/Rowanjgc/mindsculpt?style=social)  
   Open-source, model-agnostic Weight-Space Programming Workbench with Python, CLI and JSON tool-schema interfaces. Covers checkpoint inspection, tensor analysis, activation capture, versioned weight patches (replace, add, scale, rank-one, projection) with export and rollback, generation traces, detectors and experiment artifacts. Offline CPU tests; no LLM required.
+
+- **[AxOrganization/WeightSpaceProgramming](https://github.com/AxOrganization/WeightSpaceProgramming)**  
+  AxOrganization · *GitHub* · 2026-11-17 · `💻 code / results`  
+  [[Code](https://github.com/AxOrganization/WeightSpaceProgramming)] ![GitHub stars](https://img.shields.io/github/stars/AxOrganization/WeightSpaceProgramming?style=social)  
+  Toolkit and agent skill for editing small LLM weights directly to improve benchmark scores, following Sparks of Weight-Space Programming. Includes a case workflow, activation probes, declarative edit specs, a playbook of lessons and a competition submission protocol. No results are stated in the README excerpt.
 
 - **[bandr-ai/dawe](https://github.com/bandr-ai/dawe)**  
   bandr-ai · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -966,7 +981,7 @@
 <a id="hand-set-and-compiled-weights"></a>
 
 <details>
-<summary><b>Hand-set and compiled weights (16)</b></summary>
+<summary><b>Hand-set and compiled weights (17)</b></summary>
 
 - **[A logical calculus of the ideas immanent in nervous activity](https://doi.org/10.1007/BF02478259)**  
   U. Illinois College of Medicine / U. Chicago · *Bulletin of Mathematical Biophysics* · 1943 · `📄 peer-reviewed` · 18.6k citations (OA)  
@@ -1047,6 +1062,11 @@
   Dan Friedman, Alexander Wettig, Danqi Chen · *NeurIPS 2023* · 2023-06 · `📄 peer-reviewed` · 60 citations (S2)  
   [[Paper](https://arxiv.org/abs/2306.01128)]  
   Trains modified Transformers that are then converted into discrete, human-readable programs, building on RASP. Learns programs for in-context learning, sorting, Dyck languages, named entity recognition and text classification, performing on par with standard Transformers of comparable size.
+
+- **[codehygiene](https://github.com/brianbell-x/codehygiene)**  
+  brianbell-x · *GitHub* · 2026-11-18 · `💻 code / results`  
+  [[Code](https://github.com/brianbell-x/codehygiene)] ![GitHub stars](https://img.shields.io/github/stars/brianbell-x/codehygiene?style=social)  
+  A 23.84 KiB 1.58-bit model for code readability: 35 ternary tensors (1,244,706 trits) compiled deterministically from compile.py without training data or gradient descent. It runs in NumPy or browser workers across 20+ languages. No accuracy numbers are stated in the README excerpt.
 
 </details>
 
