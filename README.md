@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-630-blue)
+![Entries](https://img.shields.io/badge/entries-634-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -18,18 +18,18 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-17** · [nbirkner/weight-space-programming-open](https://github.com/nbirkner/weight-space-programming-open) (Analyses and Critiques)
 - **2026-11-17** · [Weight-Space Programming Doesn't Need Transformers](https://github.com/effl-lab/Weight-Space-Programming) (Writing networks from scratch)
+- **2026-11-17** · [Weight-Space Programming for Materials Science](https://arxiv.org/abs/2611.22013) (Other Domains)
+- **2026-11-17** · [Rowanjgc/mindsculpt](https://github.com/Rowanjgc/mindsculpt) (Tools, Harnesses and Agent Skills)
 - **2026-11-17** · [Replicating and Extending Weight-Space Programming: Frontier LLMs Compile Programs into Weights and Read Input Layers](https://arxiv.org/abs/2611.21449) (Analyses and Critiques)
 - **2026-11-17** · [Just sort it! A note on the LP behind rank-one anti-loop edits](https://arxiv.org/abs/2611.21432) (Analyses and Critiques)
 - **2026-11-17** · [Same Fix, Different Weights: Replicating Weight-Space Programming with Claude](https://arxiv.org/abs/2611.20953) (Analyses and Critiques)
 - **2026-11-17** · [Weight-Space Programming Changes How an LLM Uses Python for Computational Biology](https://arxiv.org/abs/2611.20566) (Repairing behavior)
 - **2026-11-17** · [Can AI Mature a Model's Geometry? Training-Free Weight Baking in LLMs](https://arxiv.org/abs/2611.21310) (Repairing behavior)
+- **2026-11-17** · [Weight-space programming for tractor guidance controller: large language models natively write neural network weights that steer a real tractor](https://arxiv.org/abs/2611.21958) (RL control policies)
 - **2026-11-17** · [Weights & Caches: LLMs Can Program Tabular Foundation Models](https://arxiv.org/abs/2611.20174) (Other Domains)
 - **2026-11-17** · [Zero-Shot Weight-Space Programming for Prediction and Classification of Target Variables in Structured Datasets](https://arxiv.org/abs/2611.19292) (Writing networks from scratch)
-- **2026-11-17** · [WeightSpace: a frontier model editing small-model weights directly](https://github.com/freakwinsea/WeightSpace) (Repairing behavior)
-- **2026-11-17** · [EditLens: what did Astra's weight edit actually do?](https://xxlya.github.io/editlens/) (Analyses and Critiques)
-- **2026-11-17** · [Weight-space programming on CoSTI](https://github.com/javiersgjavi/costi-weight-space-programming) (Other Domains)
-- **2026-11-17** · [paul-gauthier/quantum-weight-space](https://paulg.info/2026/11/04/quantum-weight-space/) (Quantum Circuits)
 
 ## 🧭 Milestones
 
@@ -46,16 +46,16 @@
   - [Repairing behavior](#repairing-behavior) (25)
   - [Reading and predicting from weights](#reading-and-predicting-from-weights) (2)
   - [Writing networks from scratch](#writing-networks-from-scratch) (10)
-- [🦾 Robotics and Control](#-robotics-and-control) (14)
+- [🦾 Robotics and Control](#-robotics-and-control) (15)
   - [Vision-language-action models](#vision-language-action-models) (6)
-  - [RL control policies](#rl-control-policies) (8)
-- [🧩 Other Domains](#-other-domains) (31)
+  - [RL control policies](#rl-control-policies) (9)
+- [🧩 Other Domains](#-other-domains) (32)
   - [Classical NLP models](#classical-nlp-models) (1)
 - [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (3)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (6)
-- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (17)
-- [🔍 Analyses and Critiques](#-analyses-and-critiques) (31)
+- [🛠️ Tools, Harnesses and Agent Skills](#-tools-harnesses-and-agent-skills) (18)
+- [🔍 Analyses and Critiques](#-analyses-and-critiques) (32)
 - [📜 Foundations: Weight Programming Before WSP](#-foundations-weight-programming-before-wsp) (188)
   - [Hand-set and compiled weights](#hand-set-and-compiled-weights) (16)
   - [Rule insertion and extraction](#rule-insertion-and-extraction) (12)
@@ -359,7 +359,12 @@
 <a id="rl-control-policies"></a>
 
 <details>
-<summary><b>RL control policies (8)</b></summary>
+<summary><b>RL control policies (9)</b></summary>
+
+- **[Weight-space programming for tractor guidance controller: large language models natively write neural network weights that steer a real tractor](https://arxiv.org/abs/2611.21958)**  
+  Timo Oksanen · *Preprint* · 2026-11-16 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.21958)]  
+  Two LLMs repaired a 253-parameter tractor steering network trained for another tractor and wrote a controller from zero weights, using a small budget of simulated evaluations. An evolution strategy found no controller from zero. Gradient descent reached higher accuracy with far more simulation. All LLM controllers steered a real tractor without intervention, with errors of the same order as pure pursuit.
 
 - **[Weight-Space Programming of Policies and Their Verification via Model Checking](https://arxiv.org/abs/2611.11604)**  
   Dennis Gross · *Preprint* · 2026-11-08 · `📝 preprint`  
@@ -408,7 +413,12 @@
 *Classifiers, small decision networks and anything else.*
 
 <details>
-<summary><b>General (30)</b></summary>
+<summary><b>General (31)</b></summary>
+
+- **[Weight-Space Programming for Materials Science](https://arxiv.org/abs/2611.22013)**  
+  Sk Md Ahnaf Akif Alvi, Raymundo Arróyave · *Preprint* · 2026-11-17 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.22013)]  
+  A general-purpose LLM fills in all weights of a zero-initialised 16-hidden-unit network from a task description and input names, with no labels. The networks rank experimental alloys at Spearman 0.64 to 0.79 and crystal bulk modulus at 0.95. As a Gaussian-process prior mean at five labels, alloy ranking rises from 0.35 to 0.69.
 
 - **[Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora](https://github.com/Ganto12/weight-space-programming-edit-minimax-h3-turbo-lora)**  
   Ganto12 · *GitHub* · 2026-11-16 · `💻 code / results`  
@@ -686,7 +696,12 @@
 *Libraries and agent skills for reading and editing weights.*
 
 <details>
-<summary><b>17 entries</b></summary>
+<summary><b>18 entries</b></summary>
+
+- **[Rowanjgc/mindsculpt](https://github.com/Rowanjgc/mindsculpt)**  
+  Rowanjgc · *GitHub* · 2026-11-17 · `💻 code / results`  
+  [[Code](https://github.com/Rowanjgc/mindsculpt)] ![GitHub stars](https://img.shields.io/github/stars/Rowanjgc/mindsculpt?style=social)  
+  Open-source, model-agnostic Weight-Space Programming Workbench with Python, CLI and JSON tool-schema interfaces. Covers checkpoint inspection, tensor analysis, activation capture, versioned weight patches (replace, add, scale, rank-one, projection) with export and rollback, generation traces, detectors and experiment artifacts. Offline CPU tests; no LLM required.
 
 - **[bandr-ai/dawe](https://github.com/bandr-ai/dawe)**  
   bandr-ai · *GitHub* · 2026-11-12 · `💻 code / results`  
@@ -780,7 +795,12 @@
 *Audits, replications of claims and critical takes.*
 
 <details>
-<summary><b>31 entries</b></summary>
+<summary><b>32 entries</b></summary>
+
+- **[nbirkner/weight-space-programming-open](https://github.com/nbirkner/weight-space-programming-open)**  
+  nbirkner · *GitHub* · 2026-11-18 · `💻 code / results`  
+  [[Code](https://github.com/nbirkner/weight-space-programming-open)] ![GitHub stars](https://img.shields.io/github/stars/nbirkner/weight-space-programming-open?style=social)  
+  Open-model replication of Sparks of Weight-Space Programming using models on Together, with a strict one-shot test, a simulator-assisted version, no-LLM search controls and a leakage check on a shuffled network. On the car task open models did not match the one-shot result. With tools, a cheap open model wrote a working edit about 4 times in 10, at about $0.14 per attempt.
 
 - **[Jake-Song/weight-space-programming](https://github.com/Jake-Song/weight-space-programming)**  
   Jake-Song · *GitHub* · 2026-11-16 · `💻 code / results`  
