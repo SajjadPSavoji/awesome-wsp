@@ -5,7 +5,7 @@
 **Language models that read, edit and write the weights of other neural networks directly, without gradient descent.**
 
 [![Last commit](https://img.shields.io/github/last-commit/SajjadPSavoji/awesome-weight-space-programming?color=green)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/commits/main)
-![Entries](https://img.shields.io/badge/entries-641-blue)
+![Entries](https://img.shields.io/badge/entries-642-blue)
 ![Updated](https://img.shields.io/badge/updated-daily-orange)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/SajjadPSavoji/awesome-weight-space-programming/blob/main/CONTRIBUTING.md)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
@@ -18,6 +18,7 @@
 
 ## 🔥 Recently Added
 
+- **2026-11-19** · [Can Weight-Space Programming Alter Learned Ethical Priorities?](https://arxiv.org/abs/2611.24330) (Classical NLP models)
 - **2026-11-18** · [Lohitha0607/wsp-env](https://github.com/Lohitha0607/wsp-env) (Benchmarks and Evaluations)
 - **2026-11-18** · [WSPMathBench](https://github.com/yagoiroot/WSPMathBench) (Benchmarks and Evaluations)
 - **2026-11-18** · [What Does Weight-Space Programming Add to Diffusion Editing? Program Construction versus Score-Guided Refinement](https://arxiv.org/abs/2611.22228) (Other Domains)
@@ -29,7 +30,6 @@
 - **2026-11-17** · [Weight-Space Programming for Materials Science](https://arxiv.org/abs/2611.22013) (Other Domains)
 - **2026-11-17** · [Rowanjgc/mindsculpt](https://github.com/Rowanjgc/mindsculpt) (Tools, Harnesses and Agent Skills)
 - **2026-11-17** · [Replicating and Extending Weight-Space Programming: Frontier LLMs Compile Programs into Weights and Read Input Layers](https://arxiv.org/abs/2611.21449) (Analyses and Critiques)
-- **2026-11-17** · [Just sort it! A note on the LP behind rank-one anti-loop edits](https://arxiv.org/abs/2611.21432) (Analyses and Critiques)
 
 ## 🧭 Milestones
 
@@ -49,8 +49,8 @@
 - [🦾 Robotics and Control](#-robotics-and-control) (15)
   - [Vision-language-action models](#vision-language-action-models) (6)
   - [RL control policies](#rl-control-policies) (9)
-- [🧩 Other Domains](#-other-domains) (34)
-  - [Classical NLP models](#classical-nlp-models) (1)
+- [🧩 Other Domains](#-other-domains) (35)
+  - [Classical NLP models](#classical-nlp-models) (2)
 - [🎮 Games](#-games) (7)
 - [🧪 Quantum Circuits](#-quantum-circuits) (3)
 - [📊 Benchmarks and Evaluations](#-benchmarks-and-evaluations) (8)
@@ -590,7 +590,12 @@
 <a id="classical-nlp-models"></a>
 
 <details>
-<summary><b>Classical NLP models (1)</b></summary>
+<summary><b>Classical NLP models (2)</b></summary>
+
+- **[Can Weight-Space Programming Alter Learned Ethical Priorities?](https://arxiv.org/abs/2611.24330)**  
+  Kai Yi Ji · *Preprint* · 2026-11-18 · `📝 preprint`  
+  [[Paper](https://arxiv.org/abs/2611.24330)]  
+  Edits fitted choice weights in concept-supervised text models so a larger benefit is needed to override a formal pledge than an ordinary promise. Across six trained readers, the edit selects the larger group on 100% of targeted ordinary conflicts and 83.3% of targeted formal conflicts. In a YOLO11n pilot on COCO128, a bias edit raised small-target matches from 3/43 to 9/43.
 
 - **[AryaGPT2022/weight-space-programming](https://github.com/AryaGPT2022/weight-space-programming)**  
   AryaGPT2022 · *GitHub* · 2026-11-09 · `💻 code / results`  
