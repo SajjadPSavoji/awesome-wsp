@@ -696,7 +696,7 @@
 
 - **[IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection](https://arxiv.org/abs/2611.08647)**  
   Chris von Csefalvay, Pranav Doma, Achyuthan Unni Krishnan, Tamás Földi · *Preprint* · 2026-11-05 · `📝 preprint`  
-  [[Paper](https://arxiv.org/abs/2611.08647)]  
+  [[Paper](https://arxiv.org/abs/2611.08647)] [[Code](https://github.com/hcltech-robotics/iwibench)] ![GitHub stars](https://img.shields.io/github/stars/hcltech-robotics/iwibench?style=social)  
   Benchmark of a large editor model modifying the weights of a smaller target model (typically Gemma 3 4B IT) for ten text-editing objectives. Editors get four weight read/write tools and a fixed rollout budget. A validator applies each patch and compares it with the unmodified target. A few models lead far ahead; structured response was never solved.
 
 - **[Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers](https://arxiv.org/abs/2611.05798)**  
@@ -3013,7 +3013,7 @@
 
 - **[Bridging Evolutionary Algorithms and Reinforcement Learning: A Comprehensive Survey on Hybrid Algorithms](https://arxiv.org/abs/2401.11963)**  
   Pengyi Li et al. · *IEEE TEVC* · 2024-01 · `📄 peer-reviewed` · 118 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2401.11963)]  
+  [[Paper](https://arxiv.org/abs/2401.11963)] [[Code](https://github.com/yeshenpy/awesome-evolutionary-reinforcement-learning)] ![GitHub stars](https://img.shields.io/github/stars/yeshenpy/awesome-evolutionary-reinforcement-learning?style=social)  
   Surveys hybrids of evolutionary algorithms and reinforcement learning in three directions: EA-assisted optimization of RL, RL-assisted optimization of EA, and synergistic optimization, analyzing research branches in each, the problems they address, and open challenges.
 
 - **[Evolutionary Reinforcement Learning: A Survey](https://arxiv.org/abs/2303.04150)**  
@@ -3135,7 +3135,7 @@
 
 - **[A Survey on Deep Neural Network Pruning-Taxonomy, Comparison, Analysis, and Recommendations](https://arxiv.org/abs/2308.06767)**  
   Hongrong Cheng, Miao Zhang, Javen Qinfeng Shi · *IEEE TPAMI* · 2023-08 · `📄 peer-reviewed` · 626 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2308.06767)]  
+  [[Paper](https://arxiv.org/abs/2308.06767)] [[Code](https://github.com/hrcheng1066/awesome-pruning)] ![GitHub stars](https://img.shields.io/github/stars/hrcheng1066/awesome-pruning?style=social)  
   Reviews pruning in a four-part taxonomy: universal or specific speedup, when to prune, how to prune, and fusion with other compression; compares eight pairs of contrast settings and covers LLM and multimodal model pruning.
 
 - **[A Survey on Model Compression for Large Language Models](https://arxiv.org/abs/2308.07633)**  
@@ -3145,7 +3145,7 @@
 
 - **[Structured Pruning for Deep Convolutional Neural Networks: A survey](https://arxiv.org/abs/2303.00566)**  
   Yang He, Lingao Xiao · *IEEE TPAMI* · 2023-03 · `📄 peer-reviewed` · 447 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2303.00566)]  
+  [[Paper](https://arxiv.org/abs/2303.00566)] [[Code](https://github.com/he-y/awesome-pruning)] ![GitHub stars](https://img.shields.io/github/stars/he-y/awesome-pruning?style=social)  
   Surveys structured pruning of deep convolutional networks, comparing techniques by filter ranking, regularization, dynamic execution, neural architecture search, the lottery ticket hypothesis, and applications, while contrasting them with unstructured pruning and outlining research opportunities.
 
 - **[A Survey on Model Compression and Acceleration for Pretrained Language Models](https://arxiv.org/abs/2202.07105)**  
@@ -3242,7 +3242,7 @@
 
 - **[Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety](https://arxiv.org/abs/2502.05206)**  
   Xingjun Ma et al. · *Preprint* · 2025-02 · `📝 preprint` · 82 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2502.05206)]  
+  [[Paper](https://arxiv.org/abs/2502.05206)] [[Code](https://github.com/xingjunm/awesome-large-model-safety)] ![GitHub stars](https://img.shields.io/github/stars/xingjunm/awesome-large-model-safety?style=social)  
   Reviews safety research on vision foundation, language, vision-language and diffusion models and model-powered agents, with a taxonomy of threats from adversarial and backdoor attacks to jailbreaks and extraction, plus defenses, benchmarks and open challenges.
 
 - **[On Evaluating the Durability of Safeguards for Open-Weight LLMs](https://arxiv.org/abs/2412.07097)**  
@@ -3252,7 +3252,7 @@
 
 - **[Harmful Fine-tuning Attacks and Defenses for Large Language Models: A Survey](https://arxiv.org/abs/2409.18169)**  
   Tiansheng Huang et al. · *ACM Computing Surveys 2026* · 2024-09 · `📄 peer-reviewed` · 107 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2409.18169)]  
+  [[Paper](https://arxiv.org/abs/2409.18169)] [[Code](https://github.com/git-disl/awesome_llm-harmful-fine-tuning-papers)] ![GitHub stars](https://img.shields.io/github/stars/git-disl/awesome_llm-harmful-fine-tuning-papers?style=social)  
   Reviews harmful fine-tuning attacks and defenses for LLMs, formulating the threat model and organizing the literature by attack setting, defense design and evaluation methodology, with a curated companion paper list.
 
 - **[A Survey of Trojan Attacks and Defenses to Deep Neural Networks](https://arxiv.org/abs/2408.08920)**  
@@ -3369,7 +3369,7 @@
 
 - **[Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104)**  
   Zhe Ren et al. · *Preprint* · 2026-07 · `📝 preprint` · 24 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2607.13104)]  
+  [[Paper](https://arxiv.org/abs/2607.13104)] [[Code](https://github.com/selfimproving-agent/awesome-Self-Improving-Agents)] ![GitHub stars](https://img.shields.io/github/stars/selfimproving-agent/awesome-Self-Improving-Agents?style=social)  
   Frames modern self-improving agents as a foundation model coupled with a scaffold of prompts, memory, tools and control logic, formalizes self-improvement as a self-induced update operator, and organizes prior work by update target and driving signal.
 
 - **[Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops](https://arxiv.org/abs/2607.07663)**  
@@ -3389,7 +3389,7 @@
 
 - **[Position: Agentic Evolution is the Path to Evolving LLMs](https://arxiv.org/abs/2602.00359)**  
   Minhua Lin et al. · *Preprint* · 2026-02 · `📝 preprint` · 19 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2602.00359)]  
+  [[Paper](https://arxiv.org/abs/2602.00359)] [[Code](https://github.com/A-EVO-Lab/A-EVOLVE)] ![GitHub stars](https://img.shields.io/github/stars/A-EVO-Lab/A-EVOLVE?style=social)  
   Argues that agentic evolution, in which an autonomous evolver agent drives deployment-time adaptation, is the future of LLM adaptation, introduces the A-Evolve framework, and proposes an evolution-scaling hypothesis tying adaptation capacity to evolution compute.
 
 - **[A Comprehensive Survey on LLM-Guided Evolutionary Search](https://doi.org/10.20944/preprints202610.1122.v1)**  
@@ -3424,17 +3424,17 @@
 
 - **[A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems](https://arxiv.org/abs/2508.07407)**  
   Jinyuan Fang et al. · *Preprint* · 2025-08 · `📝 preprint` · 222 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2508.07407)]  
+  [[Paper](https://arxiv.org/abs/2508.07407)] [[Code](https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents)] ![GitHub stars](https://img.shields.io/github/stars/EvoAgentX/Awesome-Self-Evolving-Agents?style=social)  
   Reviews self-evolving AI agents through a unified feedback-loop framework of system inputs, agent system, environment and optimisers, surveying techniques targeting each component, domain-specific strategies in biomedicine, programming and finance, and evaluation, safety and ethics.
 
 - **[From AI for Science to Agentic Science: A Survey on Autonomous Scientific Discovery](https://arxiv.org/abs/2508.14111)**  
   Jiaqi Wei et al. · *Preprint* · 2025-08 · `📝 preprint` · 102 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2508.14111)]  
+  [[Paper](https://arxiv.org/abs/2508.14111)] [[Code](https://github.com/AgenticScience/Awesome-Agent-Scientists)] ![GitHub stars](https://img.shields.io/github/stars/AgenticScience/Awesome-Agent-Scientists?style=social)  
   Reviews autonomous scientific discovery across life sciences, chemistry, materials science and physics, unifying process-, autonomy- and mechanism-oriented perspectives in a framework with five core capabilities and a four-stage discovery workflow.
 
 - **[A Survey of Self-Evolving Agents: What, When, How, and Where to Evolve on the Path to Artificial Super Intelligence](https://arxiv.org/abs/2507.21046)**  
   Huan-ang Gao et al. · *TMLR 01/2026* · 2025-07 · `📄 peer-reviewed` · 182 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2507.21046)]  
+  [[Paper](https://arxiv.org/abs/2507.21046)] [[Code](https://github.com/CharlesQ9/Self-Evolving-Agents)] ![GitHub stars](https://img.shields.io/github/stars/CharlesQ9/Self-Evolving-Agents?style=social)  
   Reviews self-evolving agents along three dimensions: what to evolve across agent components such as models, memory, tools and architecture, when to adapt by stage, and how, plus benchmarks, applications in coding, education and healthcare, and open challenges.
 
 - **[AI4Research: A Survey of Artificial Intelligence for Scientific Research](https://arxiv.org/abs/2507.01903)**  
@@ -3449,7 +3449,7 @@
 
 - **[From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery](https://arxiv.org/abs/2505.13259)**  
   Tianshi Zheng et al. · *EMNLP 2025* · 2025-05 · `📄 peer-reviewed` · 131 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2505.13259)]  
+  [[Paper](https://arxiv.org/abs/2505.13259)] [[Code](https://github.com/hkust-knowcomp/awesome-llm-scientific-discovery)] ![GitHub stars](https://img.shields.io/github/stars/hkust-knowcomp/awesome-llm-scientific-discovery?style=social)  
   Surveys LLMs in scientific discovery through a three-level taxonomy of Tool, Analyst and Scientist that reflects escalating autonomy across the research lifecycle, and identifies challenges including robotic automation, self-improvement and ethical governance.
 
 - **[Towards Scientific Intelligence: A Survey of LLM-based Scientific Agents](https://arxiv.org/abs/2503.24047)**  
@@ -3464,7 +3464,7 @@
 
 - **[LLM4SR: A Survey on Large Language Models for Scientific Research](https://arxiv.org/abs/2501.04306)**  
   Ziming Luo et al. · *Preprint* · 2025-01 · `📝 preprint` · 110 citations (S2)  
-  [[Paper](https://arxiv.org/abs/2501.04306)]  
+  [[Paper](https://arxiv.org/abs/2501.04306)] [[Code](https://github.com/du-nlp-lab/LLM4SR)] ![GitHub stars](https://img.shields.io/github/stars/du-nlp-lab/LLM4SR?style=social)  
   Surveys the roles of LLMs across four stages of the research cycle: hypothesis discovery, experiment planning and implementation, scientific writing and peer reviewing, covering task-specific methods, evaluation benchmarks, challenges and future directions.
 
 - **[Large Language Models for Constructing and Optimizing Machine Learning Workflows: A Survey](https://arxiv.org/abs/2411.10478)**  
